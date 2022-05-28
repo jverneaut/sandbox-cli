@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/jverneaut/sandbox-cli/issues"
   },
-  "homepage": "https://github.com/jverneaut/sandbox-cli#readme"
+  "homepage": "https://github.com/jverneaut/sandbox-cli#readme",
+  "dependencies": {
+    "prettier": "^2.6.2",
+    "prettier-plugin-twig-melody": "^0.4.6"
+  }
 }
