@@ -1,13 +1,14 @@
 {
   "name": "sandbox-cli",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "",
   "main": "index.js",
   "workspaces": [
     "./packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example:dev": "npm run dev -w @jverneaut/example",
+    "example:build": "npm run build -w @jverneaut/example"
   },
   "repository": {
     "type": "git",

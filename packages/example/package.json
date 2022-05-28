@@ -1,0 +1,13 @@
+{
+  "name": "@jverneaut/example",
+  "version": "0.0.6",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node ../sandbox/bin/cli.js dev",
+    "build": "node ../sandbox/bin/cli.js build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
