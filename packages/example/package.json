@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node ../sandbox/bin/cli.js dev",
-    "build": "node ../sandbox/bin/cli.js build"
+    "dev": "sandbox dev",
+    "build": "sandbox build"
   },
   "keywords": [],
   "author": "",
