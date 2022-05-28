@@ -1,11 +1,11 @@
 {
   "name": "@jverneaut/example",
-  "version": "0.0.8",
+  "version": "0.0.10",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "node ../sandbox/bin/cli.js dev",
-    "build": "node ../sandbox/bin/cli.js build"
+    "dev": "sandbox dev",
+    "build": "sandbox build"
   },
   "keywords": [],
   "author": "",
