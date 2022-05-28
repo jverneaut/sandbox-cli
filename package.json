@@ -7,7 +7,8 @@
     "./packages/*"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "example:dev": "npm run dev -w @jverneaut/example",
+    "example:build": "npm run build -w @jverneaut/example"
   },
   "repository": {
     "type": "git",
