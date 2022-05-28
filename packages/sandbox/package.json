@@ -3,6 +3,9 @@
   "version": "0.0.7",
   "description": "",
   "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
   "bin": {
     "@jverneaut/sandbox": "bin/cli.js"
   },
