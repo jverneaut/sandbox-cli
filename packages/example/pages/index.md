@@ -1,6 +1,7 @@
 ---
 title: Home
-template: base
 ---
 
 # Hello, World!
+
+This is the homepage.
