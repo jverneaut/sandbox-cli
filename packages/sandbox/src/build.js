@@ -2,5 +2,10 @@ const webpack = require('webpack');
 const config = require('./webpack.config');
 
 module.exports = () => {
-  webpack(config, (err, stats) => {});
+  webpack({ ...config, mode: 'production' }, (err, stats) => {
+    stats.toString({
+      chunks: false,
+      colors: true,
+    });
+  });
 };
