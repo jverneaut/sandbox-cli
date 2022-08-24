@@ -3,7 +3,7 @@ const fm = require('front-matter');
 const fs = require('fs');
 const MarkdownIt = require('markdown-it');
 
-const md = new MarkdownIt();
+const md = new MarkdownIt({ html: true });
 
 module.exports = function (content) {
   const data = pages.map((page) => {
