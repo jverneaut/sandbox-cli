@@ -35,3 +35,14 @@ title: Example
     "build": "sandbox build"
   },
 ```
+
+### TODO
+
+- [ ] Improve the markdown rendering/remove the `\"` from the html and link attributes
+- [ ] Allow more customization of the markdown, webpack and site configuration
+- [ ] Create a documentation site
+- [ ] Find a more memorable name
+- [ ] Better handle client-side webpack errors
+- [ ] Allow images in markdown documents
+- [ ] Setup the GitHub repository to allow contributions
+- [ ] Setup a test suite
