@@ -22,7 +22,6 @@
     "file-loader": "^6.2.0",
     "front-matter": "^4.0.2",
     "glob": "^8.0.3",
-    "html-loader": "^4.1.0",
     "html-webpack-plugin": "^5.5.0",
     "markdown-it": "^13.0.1",
     "raw-loader": "^4.0.2",
