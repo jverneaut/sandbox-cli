@@ -6,4 +6,4 @@ title: Home
 
 This is the homepage.
 
-<div style="color: red;">This is some HTML</div>
+<div style='color: red'>This is some HTML</div>
