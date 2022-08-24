@@ -16,6 +16,8 @@ const config = {
       .reduce(combineObjects),
   },
 
+  context: path.resolve(process.cwd(), 'pages'),
+
   output: {
     path: path.resolve(process.cwd(), 'dist'),
     clean: true,
@@ -55,12 +57,30 @@ const config = {
             },
           },
           { loader: path.resolve(__dirname, './utils/loader.js') },
+          { loader: 'extract-loader' },
+          {
+            loader: 'html-loader',
+            options: {
+              esModule: false,
+            },
+          },
         ],
       },
       { test: /\.md$/, use: ['raw-loader'] },
       {
         test: /\.s[ac]ss$/i,
         use: ['style-loader', 'css-loader', 'sass-loader'],
+      },
+      {
+        test: /\.(jpeg|png|svg|jpg|gif|svg|ico)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              name: '[path][name].[ext]',
+            },
+          },
+        ],
       },
     ],
   },
