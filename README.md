@@ -46,3 +46,4 @@ title: Example
 - [ ] Allow images in markdown documents
 - [ ] Setup the GitHub repository to allow contributions
 - [ ] Setup a test suite
+- [ ] Allow head injection
