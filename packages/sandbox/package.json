@@ -29,7 +29,7 @@
     "sass": "^1.54.5",
     "sass-loader": "^13.0.2",
     "style-loader": "^3.3.1",
-    "twig": "git+https://github.com/willrowe/twig.js.git#e50ae0e9ce2216bca2ad9c99d330fc6e927c61fc",
+    "twig": "^1.15.4",
     "twig-loader": "^0.5.5",
     "webpack": "^5.72.1",
     "webpack-dev-server": "^4.10.0",
