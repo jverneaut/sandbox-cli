@@ -1,3 +1,5 @@
+![GitHub Workflow Status](https://img.shields.io/github/workflow/status/jverneaut/sandbox-cli/Publish)
+
 # Sandbox cli
 
 This is an opinionated static site generator built with speed of development in mind.
